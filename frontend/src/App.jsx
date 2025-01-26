@@ -14,10 +14,13 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify'
 import HospitalBedManagement from './pages/HospitalBedManagement'
+import HospitalList from './pages/HospitalList'
+import SosButton from './components/SosButton'
 
 const App = () => {
   return (
-    <div className='mx-4 sm:mx-[10%]'>
+    <div className='mx-4 sm:mx-[10%] relative'>
+      {/* <SosButton /> */}
       <ToastContainer />
       <Navbar />
       <Routes>
@@ -32,6 +35,7 @@ const App = () => {
         <Route path='/my-profile' element={<MyProfile />} />
         <Route path='/verify' element={<Verify />} />
         <Route path='/hospital-beds' element={<HospitalBedManagement />} />
+        <Route path='/hospital-list' element={<HospitalList />} />
       </Routes>
       <Footer />
     </div>

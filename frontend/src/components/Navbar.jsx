@@ -28,8 +28,8 @@ const Navbar = () => {
           <li className='py-1'>ALL DOCTORS</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
-        <NavLink to='/hospital-beds' >
-          <li className='py-1'>Beds Availability</li>
+        <NavLink to='/hospital-list' >
+          <li className='py-1'>Hospitals</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
         <NavLink to='/about' >
