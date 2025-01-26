@@ -9,7 +9,7 @@ const SosButton = () => {
     }
 
   return (
-    <div className='h-100 w-100 bg-blue-600 rounded-full absolute bottom-0 m-6 cursor-pointer' onClick={handleAmbulanceMessage} >
+    <div className='h-100 w-100 bg-blue-600 rounded-full absolute bottom-0 m-6 cursor-pointer ' onClick={handleAmbulanceMessage} >
         <p className='text-white p-6 hover:p-7 transition-all' >SOS</p>
     </div>
   )
